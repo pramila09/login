@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Spinner
+        android:id="@+id/spinnerbloodgroup"
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:entries="@array/Bloodgrp" />
+    <EditText
+        android:id="@+id/EditTextquantity"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter quantity of blood required"
+        android:drawableLeft="@drawable/ic_opacity_black_24dp"
+        android:padding="10dp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/EditTexttime"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the time required"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btnsendrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstylepink"
+        android:text="Send Request"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_send_black_24dp"
+        android:textColor="#fff"/>
+
+</LinearLayout>

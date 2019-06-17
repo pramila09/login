@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorRegisterActivity"
+    android:orientation="vertical">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:layout_marginLeft="75dp"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Be a part of us "
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/EditTextfirst"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:hint="First Name"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/EditTextlast"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:hint="Last Name"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="350dp"
+            android:layout_height="34dp"
+            android:entries="@array/Gender"
+            android:scrollbarSize="25dp"
+            android:text="Gender"
+            />
+
+        <EditText
+            android:id="@+id/EditTextpassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/EditTextconfirmpassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/EditTextemail"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="Email"
+            android:inputType="textWebEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/EditTextcontact"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+            android:hint="Contact No."
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/EditTextaddress"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:hint="Address"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/EditTextdob"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:hint="Date of Birth"
+            android:inputType="" />
+        <Spinner
+            android:id="@+id/spinnerbloodgrp"
+            android:layout_width="350dp"
+            android:layout_height="34dp"
+            android:entries="@array/Bloodgrp"
+
+            />
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/buttonstylepink"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:text="Register"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+</LinearLayout>

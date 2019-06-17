@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "578133601892",
+    "firebase_url": "https://blood-558d4.firebaseio.com",
+    "project_id": "blood-558d4",
+    "storage_bucket": "blood-558d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578133601892:android:e1b1fcea92b16d28",
+        "android_client_info": {
+          "package_name": "com.example.pramila.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578133601892-8g1le91b5akbjjfnbi14gdr8nk6v2tqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pramila.login",
+            "certificate_hash": "61b71985efe147b743f41ae114821b379157ea44"
+          }
+        },
+        {
+          "client_id": "578133601892-n6ejakd2g0giv7hpvk4grofe725n4rs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwSxXlHaa9sdZIQmjgLtSyHo6x6_9jWxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578133601892-n6ejakd2g0giv7hpvk4grofe725n4rs2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".learn">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="149dp"
+        android:layout_marginLeft="15dp"
+        android:text="Blood Bank Management System is an application which enables user to search for blood from anywhere with the access of internet. This application updates you about upcoming events related to blood donation. User can serach for different types of blood and if it is not available request for the blood can also be done."
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="CONTACT US"
+        android:textStyle="bold"
+        android:textSize="20sp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="chaliseminas@gmail.com"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="pramila.shawol@gmail.com"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ritu.gubhaju20@gmail.com"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"/>
+</LinearLayout>
